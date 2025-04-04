@@ -32,3 +32,6 @@ Releases = "https://github.com/ghilesmeddour/aecg/releases"
 
 [tool.setuptools]
 packages = ["aecg"]
+
+[tool.uv]
+required-version = ">=0.6.12"
