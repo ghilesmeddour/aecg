@@ -4,6 +4,9 @@ Python library to parse and visualize [aECG files](https://en.wikipedia.org/wiki
 
 <img src="res/aecg.png" width="900">
 
+## Demo
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://annotated-ecg.streamlit.app/)
+
 ## Installation
 ```
 pip install aecg
@@ -73,7 +76,3 @@ aecg.plotter.plot_seq_set(dfs[0], plot_mode="one")
 ```
 
 <img src="res/seq_plot_1_mode_one.png">
-
-## Demo
-
-Coming...
