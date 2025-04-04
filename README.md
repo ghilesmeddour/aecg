@@ -18,7 +18,7 @@ file_path = r"tests/data/Example aECG.xml"
 aecg_o = aecg.read(file_path)
 ```
 
-- Use `summary` to get an overview of the data`. 
+- Use `summary` to get an overview of the data. 
 ```python
 aecg_o.summary()
 ```
