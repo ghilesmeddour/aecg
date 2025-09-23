@@ -13,6 +13,7 @@ uv.lock
 # Editor
 .vscode
 notebooks
+.idea
 
 # Coverage
 htmlcov
