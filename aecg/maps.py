@@ -171,7 +171,6 @@ LEADS = {
     "MDC_ECG_LEAD_V10": "Lead V10",  # Canine, over dorsal spinous process of the seventh thoracic vertebra
 }
 
-
 CONTROL_VARS = {
     "MDC_ECG_CTL_VBL": "Generic control variable",
     "MDC_ECG_CTL_VBL_SAMPLE_RATE": "Sample rate",
@@ -203,7 +202,7 @@ CONTROL_VARS = {
     "MDC_ECG_CTL_VBL_DISPLAYED_SIZE": "Displayed size",
     "MDC_ECG_CTL_VBL_DISPLAYED_COLOR": "Displayed color",
     "MDC_ECG_CTL_VBL_DISPLAYED_SWEEP_RATE": "Displayed sweep rate",
-    "MDC_ECG_CTL_VBL_ATTR_RHTYHM": "Rhythm attribute",
+    "MDC_ECG_CTL_VBL_ATTR_RHYTHM": "Rhythm attribute",
     "MDC_ECG_CTL_VBL_ATTR_AV_COND": "Rhythm attribute AV_Cond",
     "MDC_ECG_CTL_VBL_ATTR_SA_COND": "Rhythm attribute SA_Cond",
     "MDC_ECG_CTL_VBL_ATTR_RHYTHM_CRITERIA": "Rhythm criteria attribute",
@@ -212,8 +211,8 @@ CONTROL_VARS = {
     "MDC_ECG_CTL_VBL_ATTR_RATE_LIMIT_HIGH_GE": "Rhythm criteria attribute rate hi GE limit",
     "MDC_ECG_CTL_VBL_ATTR_RATE_LIMIT_LOW_LT": "Rhythm criteria attribute rate lo LT limit",
     "MDC_ECG_CTL_VBL_ATTR_RATE_LIMIT_LOW_LE": "Rhythm criteria attribute rate lo LE limit",
-    "MDC_ECG_CTL_VBL_ATTR_RATE_ LIMIT_LOW_GT": "Rhythm criteria attribute rate lo GT limit",
-    "MDC_ECG_CTL_VBL_ATTR_RATE_ LIMIT_LOW_GE": "Rhythm criteria attribute rate lo GE limit",
-    "MDC_ECG_CTL_VBL_ATTR_RATE_ LIMIT_HGH_LT": "Rhythm criteria attribute rate hi LT limit",
-    "MDC_ECG_CTL_VBL_ATTR_RATE_ LIMIT_HIGH_LE": "Rhythm criteria attribute rate hi LE limit",
+    "MDC_ECG_CTL_VBL_ATTR_RATE_LIMIT_LOW_GT": "Rhythm criteria attribute rate lo GT limit",
+    "MDC_ECG_CTL_VBL_ATTR_RATE_LIMIT_LOW_GE": "Rhythm criteria attribute rate lo GE limit",
+    "MDC_ECG_CTL_VBL_ATTR_RATE_LIMIT_HGH_LT": "Rhythm criteria attribute rate hi LT limit",
+    "MDC_ECG_CTL_VBL_ATTR_RATE_LIMIT_HIGH_LE": "Rhythm criteria attribute rate hi LE limit",
 }
