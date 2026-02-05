@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["coverage>=7.8.0", "devtools>=0.12.2", "pytest>=8.3.3", "ruff>=0.6.9"]
+dev = ["coverage>=7.13.3", "devtools>=0.12.2", "pytest>=9.0.2", "ruff>=0.15.0"]
 
 [project.urls]
 Repository = "https://github.com/ghilesmeddour/aecg"
