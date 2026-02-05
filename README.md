@@ -2,18 +2,22 @@
 
 Python library to parse and visualize [aECG files](https://en.wikipedia.org/wiki/HL7_aECG).
 
-<img src="res/aecg.png" width="900">
+<img src="https://raw.githubusercontent.com/ghilesmeddour/aecg/13aafa7f29d7142f6d3d28baa41b9805dafbb965/res/aecg.png" width="900">
 
 ## Demo
+
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://annotated-ecg.streamlit.app/)
 
 ## Installation
+
 ```
 pip install aecg
 ```
 
 ## Usage
+
 - Read your aECG xml file.
+
 ```python
 import aecg
 
@@ -21,10 +25,12 @@ file_path = r"tests/data/Example aECG.xml"
 aecg_o = aecg.read(file_path)
 ```
 
-- Use `summary` to get an overview of the data. 
+- Use `summary` to get an overview of the data.
+
 ```python
 aecg_o.summary()
 ```
+
 ```python
 {
     'id': UUID('61d1a24f-b47e-41aa-ae95-f8ac302f4eeb'),
@@ -35,6 +41,7 @@ aecg_o.summary()
 ```
 
 - Get waveforms dataframes and their associated plots.
+
 ```python
 titles = []
 dfs = []
@@ -61,6 +68,7 @@ for serie in aecg_o.series:
 ```python
 dfs[0]
 ```
+
 <img src="res/df_1.png">
 
 ```python
