@@ -1,3 +1,7 @@
+## Version 0.1.3 (2026-02-14)
+
+- Bump pydantic-xml to 2.19.0 to fix [broken validation](https://github.com/dapper91/pydantic-xml/issues/301)
+
 ## Version 0.1.2 (2025-12-04)
 
 - Cap pydantic-xml version to <2.18.0 #2
